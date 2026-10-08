@@ -1,0 +1,22 @@
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  z-index: 2000;
+  padding: 0.5rem 1rem;
+  background: #fff;
+}
+.skip-link:focus {
+  left: 0;
+}
+.story-img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.auth-card {
+  max-width: 440px;
+  margin-inline: auto;
+}
+#main-content:focus {
+  outline: none;
+}
