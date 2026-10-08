@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catatan Belajar Web | Nama Anda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Catatan Belajar Web</h1>
+    <p>Jurnal singkat perjalanan saya belajar membuat website dari nol.</p>
+  </header>
+
+  <div class="content-wrapper">
+    <main>
+      <article>
+        <h2>Dari Penasaran Jadi Kebiasaan</h2>
+
+        <section id="awal">
+          <h3>Awal Mula</h3>
+          <p>
+            Saya mulai belajar web development karena mendapatkan kesempatan mengikuti MSIB Batch 2, saya ingin tahu bagaimana sebuah halaman
+            bisa tampil di layar hanya dari beberapa baris teks. Ternyata semuanya dimulai
+            dari HTML: kerangka yang memberi arti pada setiap bagian halaman.
+          </p>
+          <p>
+            Submission ini adalah halaman pertama yang saya susun sendiri, lengkap dengan
+            struktur semantik dan tata letak berbasis flexbox.
+          </p>
+        </section>
+
+        <section id="dipelajari">
+          <h3>Yang Dipelajari</h3>
+          <p>Beberapa hal penting yang saya dapat selama mengerjakan halaman ini:</p>
+          <ul>
+            <li>Elemen semantik seperti <code>header</code>, <code>nav</code>, <code>main</code>, <code>article</code>, <code>aside</code>, dan <code>footer</code> membuat struktur halaman lebih mudah dipahami.</li>
+            <li>Flexbox memudahkan penataan kolom tanpa perlu <code>float</code>.</li>
+            <li>Menggunakan relative path agar gambar dan stylesheet tetap terbaca di komputer lain.</li>
+          </ul>
+        </section>
+
+        <section id="target">
+          <h3>Target Berikutnya</h3>
+          <p>
+            Setelah memahami dasar HTML dan CSS, saya ingin lanjut mempelajari JavaScript
+            agar halaman bisa bereaksi terhadap aksi pengunjung.
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <aside class="profile">
+      <img src="images/profile.svg" alt="Foto profil" width="240" height="240">
+      <h2>Ilham Oktavian</h2>
+      <p class="role">Pelajar Web Development</p>
+      <dl>
+        <dt>Asal</dt>
+        <dd>Tangerang, Banten, Indonesia</dd>
+        <dt>Minat</dt>
+        <dd>Web Development</dd>
+        <dt>Email</dt>
+        <dd>ilhamoktavian74@email.com</dd>
+      </dl>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> Ilham Oktavian. Dibuat sebagai submission kelas Dicoding.</p>
+  </footer>
+
+</body>
+</html>
